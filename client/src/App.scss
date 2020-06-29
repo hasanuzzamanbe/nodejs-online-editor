@@ -1,4 +1,4 @@
-.setup {
+.setup{
   &_wrapper {
     display: flex;
     margin-top: 25px;
@@ -8,14 +8,6 @@
     flex: 1;
   }
 }
-
-.title_wrapper {
-  flex: 1;
-  h2 {
-    margin: 0;
-  }
-}
-
 
 .App {
   margin-top: 25px;
@@ -71,8 +63,9 @@ button {
   border-radius: 4px;
   -webkit-user-select: none;
   user-select: none;
-  margin-left: 43%;
-
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   &:hover {
     color: #fff;
     background-color: #449d44;
@@ -80,8 +73,14 @@ button {
   }
 }
 
+.title_wrapper {
+  flex: 1;
+  h2 {
+    margin: 0;
+  }
+}
 
-// responsive css
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
